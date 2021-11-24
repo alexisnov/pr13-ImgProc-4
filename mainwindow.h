@@ -24,6 +24,8 @@ private slots:
      */
     void imgReady(QString name);
 
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     QVector<ImgProc*> threads;//Потоки обработки
